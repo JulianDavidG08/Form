@@ -1,0 +1,253 @@
+.container__form {
+  box-shadow: -1px 3px 26px -1px rgba(176,174,174,0.66);
+  margin: 3% 4% 3% 4%;
+  padding: 0 3% 4% 1%;
+}
+
+input:focus {outline: none;}
+select:focus {outline: none;}
+
+.flex__container__site {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0 10px 0;
+}
+
+.flex__container__convenio {
+  display: flex;
+  flex-direction: column;
+}
+.flex__container__two select {
+  width: 100%;
+  border: 1px #D5D5D5 solid;
+  border-radius: 5px;
+  line-height: 40px;
+  padding: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.flex__container__two select option {
+  color: gray;
+}
+.flex__container__two select:focus {
+  border: 1px #575656 solid;
+}
+
+.flex__container__two input {
+  width: 100%;
+  border: 1px #D5D5D5 solid;
+  border-radius: 5px;
+  padding: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.flex__container__two input:focus {
+  border: 1px #575656 solid;
+}
+
+.flex__container {
+  display: flex;
+}
+
+.flex__container__between {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.flex__container__self {
+  align-self: center;
+}
+
+.flex__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.leyenda {
+  display: flex;
+  margin: 3% 0 3% 0;
+  justify-content: center;
+}
+
+.flex__container__one {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex__container__two {
+  padding-bottom: 3%;
+}
+
+.section__factura {
+  width: 50%;
+}
+
+.section__consultorio {
+  width: 50%;
+}
+
+.section__consultorio__head {
+  display: flex;
+}
+
+.border__bottom__card__one {
+  text-align: center;
+  border-bottom: 1px solid gray;
+  width: 80%;
+}
+.border__bottom__card__two {
+  text-align: center;
+  border-bottom: 1px solid gray;
+  width: 15%;
+}
+
+.flex__column__input {
+  display: flex;
+  flex-direction: column;
+  width: 30% !important;
+}
+
+.dotted__line {
+  color: #9D6A3C;
+  border-bottom-style: dashed;
+}
+
+.flex__container__three {
+  display: flex;
+  justify-content: space-between;
+  margin: 5% 0 2% 0;
+}
+
+.flex__container__between div h3 {
+  font-size: 30px;
+}
+
+.three__item__line {
+  height: 1px;
+  border-top: #283449 1px solid;
+  margin-right: -40px;
+  margin-left: -40px;
+  margin-bottom: 5px;;
+}
+
+.container__three__item {
+  margin: auto;
+}
+
+.flex__container__four {
+  display: flex;
+  justify-content: space-between;
+  background-color: #E3E3E3;
+}
+
+.container__four__item {
+  width: 25%;
+  padding: 20px 0 20px 25px;
+}
+
+.container__four__item .number {
+  color:#00BFB7;
+  font-size: 20px;
+  margin-top: 15px;
+  font-weight: 700;
+}
+
+.container__four__item__dark {
+  background-color: #283449;
+  width: 25%;
+  padding: 20px 0 20px 25px;
+  color:  white;
+}
+
+.container__four__item__dark .number {
+  font-size: 20px;
+  margin-top: 15px;
+  font-weight: 700;
+}
+
+.container__button {
+  display: flex;
+  justify-content: center;
+}
+
+.buttonBaseGreen {
+    margin: 0 10px;
+    cursor: pointer;
+    background-color: #00BFB7;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 8px 20px 6px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.buttonBaseGreen:focus {
+  outline: none;
+}
+
+.buttonBase {
+    margin: 0 10px;
+    cursor: pointer;
+    background-color: #D5D5D5;
+    border: none;
+    border-radius: 5px;
+    color: #1E1E1E;
+    padding: 8px 20px 6px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.buttonBase:focus {
+  outline: none;
+}
+
+.buttonBaseBlack {
+    margin: 0 10px;
+    cursor: pointer;
+    background-color: #2A3447;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    padding: 7px 20px 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.buttonBaseBlack:focus {
+  outline: none;
+}
+
+.buttonBaseTransparent {
+    margin: 0 10px;
+    cursor: pointer;
+    background-color: #2A3447;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    padding: 7px 20px 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.buttonBaseTransparent:focus {
+  outline: none;
+}
