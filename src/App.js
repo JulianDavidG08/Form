@@ -22,28 +22,42 @@ function App() {
         <div className={Style.flex__container__one}>
           <div className={Style.section__factura}>
             <h2>Datos de la factura</h2>
-              <div className={Style.flex__container}>
+              <div className={Style.flex__container__dates}>
+
+              <div className={Style.flex__column__input}>
+              <label for="date-fecha">Fecha</label>
                 <input 
                   type="date" 
                   name="date-fecha"
                   ref={register}
                   min="2021-01-01" max="2031-12-31">
                 </input>
+                </div>
+
+              <div className={Style.flex__column__input}>
+              <label for="date-vencimiento">Vencimiento</label>
                 <input
                   type="date"
                   name="date-vencimiento"
                   ref={register}
                   min="2021-01-01" max="2031-12-31">
                 </input>
+              </div>
+
+              <div className={Style.flex__column__input}>
+              <label for="date-vencimiento">Forma de pago:</label>
                 <select name="date-forma-pago" ref={register}>
                     <option value="Pago 1">Pago 1</option>
                     <option value="Pago 2">Pago 2</option>
                     <option value="Pago 3">Pago 3</option>
                 </select>
               </div>
+              </div>
           </div>
           <div className={Style.section__consultorio}>
             <h2>Datos del consultorio</h2>
+
+            <div className={Style.section__consultorio__body}>
               <div className={Style.section__consultorio__head}>
                   <div className={Style.border__bottom__card}>Consultorio</div>
                   <div className={Style.border__bottom__card}>ID</div>
@@ -62,6 +76,8 @@ function App() {
                     <option value="value 3">value 2</option>
                 </select>
               </div>
+            </div>
+              
           </div>
         </div>
 

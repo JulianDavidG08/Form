@@ -7,10 +7,55 @@
 input:focus {outline: none;}
 select:focus {outline: none;}
 
+.flex__container__dates {
+  display: flex;
+  justify-content: space-between;
+}
 .flex__container__site {
   display: flex;
   justify-content: space-between;
   margin: 20px 0 10px 0;
+}
+
+.section__consultorio__body {
+  box-shadow: -1px 3px 26px -1px rgb(202 199 199 / 66%);
+  border-radius: 5px;
+  padding: 15px 20px 20px 20px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.flex__container__one select {
+  border: 1px #D5D5D5 solid;
+  border-radius: 5px;
+  line-height: 40px;
+  padding: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.flex__container__one select option {
+  color: gray;
+}
+.flex__container__one select:focus {
+  border: 1px #575656 solid;
+}
+
+
+.flex__container__one input {
+  border: 1px #D5D5D5 solid;
+  border-radius: 5px;
+  padding: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.flex__container__one select:focus {
+  border: 1px #575656 solid;
 }
 
 .flex__container__convenio {
@@ -78,6 +123,7 @@ select:focus {outline: none;}
 .flex__container__one {
   display: flex;
   justify-content: space-between;
+  padding: 0 0 3% 0;
 }
 
 .flex__container__two {
@@ -85,7 +131,7 @@ select:focus {outline: none;}
 }
 
 .section__factura {
-  width: 50%;
+  width: 40%;
 }
 
 .section__consultorio {
@@ -94,8 +140,12 @@ select:focus {outline: none;}
 
 .section__consultorio__head {
   display: flex;
+  justify-content: space-around;
 }
-
+.border__bottom__card {
+  text-align: center;
+  border-bottom: 1px solid gray;
+}
 .border__bottom__card__one {
   text-align: center;
   border-bottom: 1px solid gray;
