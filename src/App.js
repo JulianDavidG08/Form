@@ -49,7 +49,7 @@ function App() {
                 <select name="date-forma-pago" ref={register}>
                     <option value="Pago 1">Pago 1</option>
                     <option value="Pago 2">Pago 2</option>
-                    <option value="Pago 3">Pago 3</option>
+                    <option value="Pago 3">Pago3</option>
                 </select>
               </div>
               </div>
